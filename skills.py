@@ -29,17 +29,23 @@ def largest(number_list):
 
 # Write a function that takes a list of numbers and returns a new list of all those numbers divided by two.
 def halvesies(number_list):
+    for index in range (len(number_list)):
+        newnew_list [index] /= 2
+    
     newnew_list = []
     set(number_list) == set(newnew_list)
     return [newnew_list]
 
 # Write a function that takes a list of words and returns a list of all the lengths of those words.
 def word_lengths(word_list):
-    return []
+     for i in word_list:
+        return(len(i))
 
 # Write a function (using iteration) that sums all the numbers in a list.
 def sum_numbers(number_list):
-    return 0
+    a = number_list
+    b = sum(a)
+    return b
 
 # Write a function that multiplies all the numbers in a list together.
 def mult_numbers(number_list):
